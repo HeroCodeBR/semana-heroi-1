@@ -9,7 +9,7 @@ Na primeira semana do herói, desenvolvemos um projeto de Agendamento de Salão 
 
 **Client:** React, ContextAPI, ModuleCSS, Day Picker
 
-**Server:** Node, Express, JWT, Middlewares, Prisma, SQLite
+**Server:** Node, Express, JWT, Prisma, SQLite
 
 
 ## Environment Variables
