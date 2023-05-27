@@ -1,0 +1,72 @@
+.formDiv {
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+}
+
+.footer>button:first-child {
+  border: 1px solid var(--secondary);
+  background: none;
+  color: var(--secondary);
+}
+
+.footer>button:first-child:hover {
+
+  background: var(--gray-50);
+
+}
+
+.footer>button {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 300px;
+  border-radius: 16px;
+  padding: .5rem 1.5rem;
+  width: 40%;
+}
+
+.footer>button:nth-child(2) {
+  border: 1px solid var(--secondary);
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.footer>button:nth-child(2):hover {
+
+  background-color: var(--secondary-50);
+}
+
+.fileUpload img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.fileUpload {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.imageUpload input[type='file'] {
+  display: none;
+}
+
+.imageUpload {
+  background-color: var(--primary);
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-flex;
+  color: var(--white);
+  position: absolute;
+  bottom: 10px;
+  right: 35%;
+  cursor: pointer;
+}

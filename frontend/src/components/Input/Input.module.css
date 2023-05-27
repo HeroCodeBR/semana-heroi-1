@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.container label {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container label i {
+  position: absolute;
+  padding-left: .5rem;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.container input {
+  width: 100%;
+  padding: .7rem 2.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  border: 1px solid var(--gray-50);
+  background-color: var(--white);
+}
+
+.container span {
+  color: rgb(193, 32, 32);
+}

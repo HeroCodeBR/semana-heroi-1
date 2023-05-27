@@ -1,0 +1,60 @@
+.background {
+  background-image: url('../../assets/cadastro.webp');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+}
+
+.imageContainer {
+  width: 50%;
+  text-align: center;
+}
+
+.card {
+  background-color: var(--gray-100);
+  box-shadow: 4px 8px 4px rgb(0, 0, 0, 0.2);
+  border-radius: 24px;
+  padding: 3rem;
+  text-align: center;
+  width: 50%;
+}
+
+.navigate a {
+  color: var(--white);
+}
+
+.card h2 {
+  color: var(--white);
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.navigate {
+  color: var(--white);
+  padding-top: 2rem;
+}
+
+.register span {
+  color: var(--white);
+  font-weight: 300;
+  font-size: .8rem;
+}
+
+.register {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.register a {
+  color: var(--white);
+}

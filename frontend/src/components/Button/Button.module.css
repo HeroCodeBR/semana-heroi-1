@@ -1,0 +1,12 @@
+.button {
+  width: 100%;
+  border: none;
+  padding: .9rem;
+  border-radius: 8px;
+  color: var(--white);
+  background-color: var(--secondary);
+}
+
+.button span {
+  font-size: 1rem;
+}

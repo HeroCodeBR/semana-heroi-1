@@ -1,0 +1,107 @@
+.background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0, 0.3);
+  z-index: 9;
+
+
+}
+
+.modal {
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  background-color: var(--white);
+  border-radius: 16px;
+}
+
+.header {
+  background-color: var(--primary);
+  border-radius: 16px 16px 0 0;
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.header svg {
+  cursor: pointer;
+}
+
+.body {
+  padding: 1rem 2rem
+}
+
+.body>p {
+  color: var(--secondary);
+  font-size: 1.5rem;
+  margin-bottom: .8rem;
+}
+
+.input {
+  color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.input>input[type='date'] {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  border-radius: 10px;
+  width: 40%;
+  padding: .3rem
+}
+
+.input>select {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  border-radius: 10px;
+  width: 40%;
+  padding: .3rem
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.footer>button:first-child {
+  border: 1px solid var(--secondary);
+  background: none;
+  color: var(--secondary);
+}
+
+.footer>button:first-child:hover {
+
+  background: var(--gray-50);
+
+}
+
+.footer>button {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 300px;
+  border-radius: 16px;
+  padding: .3rem 1.5rem;
+  width: 30%;
+}
+
+.footer>button:nth-child(2) {
+  border: 1px solid var(--secondary);
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.footer>button:nth-child(2):hover {
+
+  background-color: var(--secondary-50);
+}

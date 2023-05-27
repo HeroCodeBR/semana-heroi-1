@@ -1,0 +1,77 @@
+.formDiv {
+  width: 50%;
+  margin: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 2rem;
+}
+
+.footer>button:first-child {
+  border: 1px solid var(--secondary);
+  background: none;
+  color: var(--secondary);
+}
+
+.footer>button:first-child:hover {
+
+  background: var(--gray-50);
+
+}
+
+.footer>button {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 300px;
+  border-radius: 16px;
+  padding: .5rem 1.5rem;
+  width: 40%;
+}
+
+.footer>button:nth-child(2) {
+  border: 1px solid var(--secondary);
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.footer>button:nth-child(2):hover {
+
+  background-color: var(--secondary-50);
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date select {
+  border: 1px solid var(--primary);
+  border-radius: 16px;
+
+  color: var(--primary);
+  background-color: transparent;
+  align-items: center;
+  height: fit-content;
+  padding: .5rem;
+}
+
+.container h2 {
+  font-weight: 300;
+  color: var(--primary);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.select label {
+  color: var(--primary);
+}
